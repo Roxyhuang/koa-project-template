@@ -25,7 +25,7 @@ app.use(async (ctx, next)=> {
 app.use(router.routes());
 
 router.get('/user', async (ctx, next) => {
-  ctx.body = JSON.stringify({ errCode: '00', errMsg: '成功', value: '头' });
+  ctx.body = JSON.stringify({ errCode: '00', errMsg: '成功', url: 'http://www.baidu.com' });
 });
 
 router.get('/getRecommandList', async (ctx, next) => {
