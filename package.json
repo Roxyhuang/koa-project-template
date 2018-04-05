@@ -18,8 +18,13 @@
   },
   "homepage": "https://github.com/Roxyhuang/koa-project-template#readme",
   "dependencies": {
+    "bluebird": "^3.5.1",
+    "co-body": "^5.1.1",
+    "formidable": "^1.1.1",
     "koa": "^2.4.1",
+    "koa-body": "^2.5.0",
     "koa-bodyparser": "^4.2.0",
+    "koa-request": "^1.0.0",
     "koa-router": "^7.3.0",
     "mocha": "^4.1.0",
     "should": "^13.2.0",
